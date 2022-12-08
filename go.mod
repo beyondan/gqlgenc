@@ -4,8 +4,8 @@ go 1.15
 
 require (
 	github.com/agnivade/levenshtein v1.1.0 // indirect
-	github.com/beyondan/gqlgen v0.13.1
-	github.com/beyondan/gqlparser/v2 v2.1.2
+	github.com/beyondan/gqlgen v0.13.2
+	github.com/beyondan/gqlparser/v2 v2.1.3
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/stretchr/testify v1.4.0
