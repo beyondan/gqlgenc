@@ -7,10 +7,10 @@ github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883 h1:bvNMNQO63//z+xNg
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883/go.mod h1:rCTlJbsFo29Kk6CurOXKm700vrz8f0KW0JNfpkRJY/8=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0 h1:jfIu9sQUG6Ig+0+Ap1h4unLjW6YQJpKZVmUzxsD4E/Q=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0/go.mod h1:t2tdKJDJF9BV14lnkjHmOQgcvEKgtqs5a1N3LNdJhGE=
-github.com/beyondan/gqlgen v0.13.2 h1:FS44z6L/b2soqgJld7kw5ndrn9fDzjU/QxX1iWzHaoU=
-github.com/beyondan/gqlgen v0.13.2/go.mod h1:sdRdQh5S7oVZLTPm9t/XkCA4NJx2eNlzfmWTIBJIMpM=
-github.com/beyondan/gqlparser/v2 v2.1.3 h1:TmMKQfpYDNEMW/3qTDNu8C7WQkgU17tI+zN8iLwza+4=
-github.com/beyondan/gqlparser/v2 v2.1.3/go.mod h1:epj89LxBg89lgISZ2vzFGfXKXZABU0obNNLfHhQFrJ0=
+github.com/beyondan/gqlgen v0.13.4 h1:NRv7PYc4wwI5zBQf56CA6mIV5ygxC/zsYhXYYjgNhS4=
+github.com/beyondan/gqlgen v0.13.4/go.mod h1:vdt7njw/m7htS0bpRIuICgKaFJZdBmdKC8PhdL+7D+I=
+github.com/beyondan/gqlparser/v2 v2.1.4 h1:OjgDYuiMdGDBR/l7f8lL8tqBc3JuHDUd2nEEWO2e/tk=
+github.com/beyondan/gqlparser/v2 v2.1.4/go.mod h1:epj89LxBg89lgISZ2vzFGfXKXZABU0obNNLfHhQFrJ0=
 github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d/go.mod h1:maD7wRr/U5Z6m/iR4s+kqSMx2CaBsrgA7czyZG/E6dU=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
