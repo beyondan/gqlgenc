@@ -3,10 +3,11 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/client/transport"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
+
+	"github.com/beyondan/gqlgenc/client/transport"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSingleResponse(t *testing.T) {

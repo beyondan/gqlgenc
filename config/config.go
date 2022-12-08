@@ -5,9 +5,9 @@ package config
 import (
 	"context"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/client"
-	"github.com/infiotinc/gqlgenc/client/transport"
-	"github.com/infiotinc/gqlgenc/introspection"
+	"github.com/beyondan/gqlgenc/client"
+	"github.com/beyondan/gqlgenc/client/transport"
+	"github.com/beyondan/gqlgenc/introspection"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -15,10 +15,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/vektah/gqlparser/v2"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/validator"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlparser/v2"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/validator"
 	"gopkg.in/yaml.v2"
 )
 
@@ -151,7 +151,7 @@ func LoadConfig(filename string) (*Config, error) {
 		return nil, fmt.Errorf("neither 'schema' nor 'endpoint' specified. Use schema to load from a local file, use endpoint to load from a remote server (using introspection)")
 	}
 
-	// https://github.com/99designs/gqlgen/blob/3a31a752df764738b1f6e99408df3b169d514784/codegen/config/config.go#L120
+	// https://github.com/beyondan/gqlgen/blob/3a31a752df764738b1f6e99408df3b169d514784/codegen/config/config.go#L120
 	for _, f := range cfg.SchemaFilename {
 		var matches []string
 

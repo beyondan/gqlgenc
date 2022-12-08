@@ -2,8 +2,8 @@ package clientgen
 
 import (
 	"fmt"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlparser/v2/ast"
 	"go/constant"
 	"go/types"
 )

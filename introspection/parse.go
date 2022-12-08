@@ -3,7 +3,7 @@ package introspection
 import (
 	"fmt"
 
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/ast"
 )
 
 func ParseIntrospectionQuery(url string, query Query) *ast.SchemaDocument {

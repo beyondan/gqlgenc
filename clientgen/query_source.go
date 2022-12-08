@@ -30,8 +30,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlparser/v2/ast"
 )
 
 var path2regex = strings.NewReplacer(

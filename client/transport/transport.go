@@ -3,7 +3,7 @@ package transport
 import (
 	"context"
 	"encoding/json"
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 )
 
 type Operation string

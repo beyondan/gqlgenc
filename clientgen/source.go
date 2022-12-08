@@ -3,9 +3,9 @@ package clientgen
 import (
 	"bytes"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/config"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/formatter"
+	"github.com/beyondan/gqlgenc/config"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/formatter"
 	"go/types"
 )
 

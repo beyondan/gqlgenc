@@ -9,7 +9,7 @@
 | https://github.com/shurcooL/graphql         | ❌      | ❌            |❌          |
 | https://github.com/Yamashou/gqlgenc         | ✅      | ❌            |❌          |
 | https://github.com/hasura/go-graphql-client | ❌      | ✅            |❌          |
-| ✨[https://github.com/infiotinc/gqlgenc](https://github.com/infiotinc/gqlgenc)✨| ✅ | ✅ | ✅ |
+| ✨[https://github.com/beyondan/gqlgenc](https://github.com/beyondan/gqlgenc)✨| ✅ | ✅ | ✅ |
 
 ## GQL Client
 
@@ -30,8 +30,8 @@ package main
 
 import (
     "context"
-    "github.com/infiotinc/gqlgenc/client"
-    "github.com/infiotinc/gqlgenc/client/transport"
+    "github.com/beyondan/gqlgenc/client"
+    "github.com/beyondan/gqlgenc/client/transport"
 )
 
 func main() {
@@ -102,9 +102,9 @@ client:
   filename: ./graph/gen_client.go
 models:
   Int:
-    model: github.com/99designs/gqlgen/graphql.Int64
+    model: github.com/beyondan/gqlgen/graphql.Int64
   DateTime:
-    model: github.com/99designs/gqlgen/graphql.Time
+    model: github.com/beyondan/gqlgen/graphql.Time
 # The schema can be fetched from files or through introspection
 schema:
   - schema.graphqls
@@ -126,7 +126,7 @@ query GetRoom {
 }
 ```
 
-Run `go run github.com/infiotinc/gqlgenc`
+Run `go run github.com/beyondan/gqlgenc`
 
 Enjoy:
 ```go
@@ -174,7 +174,7 @@ cli.Use(&extensions.APQ{})
 ```yaml
 models:
   Upload:
-    model: github.com/infiotinc/gqlgenc/client/transport.Upload
+    model: github.com/beyondan/gqlgenc/client/transport.Upload
 ```
 
 - Profit

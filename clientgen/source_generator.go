@@ -2,10 +2,10 @@ package clientgen
 
 import (
 	"fmt"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	config2 "github.com/infiotinc/gqlgenc/config"
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	config2 "github.com/beyondan/gqlgenc/config"
+	"github.com/beyondan/gqlparser/v2/ast"
 	"go/types"
 	"math"
 	"sort"

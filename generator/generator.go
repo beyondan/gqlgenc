@@ -5,10 +5,10 @@ package generator
 import (
 	"context"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/config"
+	"github.com/beyondan/gqlgenc/config"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/beyondan/gqlgen/api"
+	"github.com/beyondan/gqlgen/plugin"
 )
 
 func Generate(ctx context.Context, cfg *config.Config, option ...api.Option) error {

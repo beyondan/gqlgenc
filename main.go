@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/99designs/gqlgen/api"
-	"github.com/infiotinc/gqlgenc/clientgen"
-	"github.com/infiotinc/gqlgenc/config"
-	"github.com/infiotinc/gqlgenc/generator"
+	"github.com/beyondan/gqlgen/api"
+	"github.com/beyondan/gqlgenc/clientgen"
+	"github.com/beyondan/gqlgenc/config"
+	"github.com/beyondan/gqlgenc/generator"
 	"os"
 )
 

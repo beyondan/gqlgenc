@@ -12,10 +12,10 @@ example-genall:
 	make example-gqlgenc
 
 example-gqlgen:
-	cd example && go run github.com/99designs/gqlgen
+	cd example && go run github.com/beyondan/gqlgen
 
 example-gqlgenc:
-	cd example && go run github.com/infiotinc/gqlgenc
+	cd example && go run github.com/beyondan/gqlgenc
 
 example-test:
 	cd example && go test -v -count=1 ./...
